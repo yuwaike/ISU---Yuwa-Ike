@@ -3,6 +3,8 @@ body {
   color: white;
   padding: 25px;
   font-family: calibri;
+  width: 1366px;
+	margin: auto;
 }
 
 .header {
