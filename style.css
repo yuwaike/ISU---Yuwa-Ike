@@ -3,6 +3,8 @@ body {
   color: white;
   padding: 25px;
   font-family: calibri;
+  width: 1366px;
+	margin: auto;
 }
 
 .header {
@@ -118,7 +120,6 @@ hr.rounded {
 }
 
 
-
 .column2 {
   float: left;
   width: 31%;
@@ -130,4 +131,3 @@ hr.rounded {
   clear: both;
   display: table;
 }
-
