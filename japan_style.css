@@ -23,6 +23,14 @@ body {
 
 .header-right {
   float: right;
+ 
+}
+.pages {
+  font-family: calibri;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
 }
 
 hr .solid {
