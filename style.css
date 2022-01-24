@@ -41,18 +41,6 @@ body {
   position: relative;
 }
 
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: #c3a374;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  opacity: 0.9;
-  text-align: center;
-}
-
 hr .solid {
  border-top: 5px solid black;
 }
