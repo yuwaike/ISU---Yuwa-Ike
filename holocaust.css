@@ -1,186 +1,248 @@
-<!DOCTYPE html>
-<html>
-  <body>
-<head>
-  <title>The Holocaust</title>
-  <link href='holocaust.css' rel='stylesheet'>
-  </head>
+body {
+  background: #dcba82;
+  color: white;
+  padding: 25px;
+  font-family: calibri;
+  width: 1366px;
+	margin: auto;
+}
 
-<div class="header">
-  <a href="index.html" class="logo" >History</a>
-  <div class="header-right">
-    <a class="pages" href="japan.html">Japanese Atrocities</a>
-    <a class="pages" href="holocaust.html">The Holocaust</a>
-    <a class="pages" href="holodomor.html">Holodomor</a>
-  </div>
-</div>
+.header {
+  overflow: hidden;
+  background-color: #77552f;
+  padding: 20px 10px;
+}
 
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  font-family: spectral;
+  text-decoration: none;
+}
 
-
-<h1 class="h1">The Holocaust</h1>
-  <hr class="solid">
-  <p class="p1">Article by: ‏‏‎ ‎‏‏‎‎Yuwa Ike <br><br> Published Online:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎January 12, 2022</p>
-  <hr class="solid">
-
-<p class="p2">European Jews experienced mass genocide<br> and discrimination under Hitler and the Nazi Party during
-WW2. </p>
-
-<figure>
-  <img src="https://external-preview.redd.it/KyFF4G-elbZW9VdlffxuqFoCYH5sf8TdUIf24tvAgiM.jpg?width=960&crop=smart&auto=webp&s=4aa94beaf424e61d99fae42faa14fda6321ef356" class="img1">
-  <figcaption class="figcaption1">May 27, 1944. Jewish women and children arriving at the<br> Auschwitz-Birkenau extermination camp in Poland.</figcaption>
-  </figure>
-
-
-<div class="row2">
-  <div class="column2">
-<div class="card">
-  <img src="https://www.nzherald.co.nz/resizer/LPdaarSIWuiE0sW97FjSBffIUr8=/576x760/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/27OMJMXI7FDXGHHHDYP7IR3NRU.jpg" alt="Avatar" style="width:300px">
-  <div class="container">
-    <p><b>Czesława Kwoka</b> <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-    <br>
-  </div>
-</div>
-</div>
-
-<div class="row2">
-  <div class="column2">
-<div class="card">
-  <img src="https://i.dailymail.co.uk/1s/2020/01/27/12/23928898-7933351-image-m-74_1580127788803.jpg" alt="Avatar" style="width:300px">
-  <div class="container">
-    <p><b>Katarzyna Kwoka</b> <br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-    <br>
-  </div>
-</div>
-</div>
-
- <div class="row2">
-  <div class="column2">
-<div class="card">
-  <img src="https://i.dailymail.co.uk/1s/2020/01/27/17/23941342-7933351-image-m-238_1580144762744.jpg" alt="Avatar" style="width:300px">
-  <div class="container">
-    <p><b>Maria Schenker</b><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-    <br>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <!--For whatever reason the cards are refusing to stay in the center-->
-
-<h2 class="h2" style="text-align:center;">Faces of Auschwitz</h2>
-  <p class="cardcaption" style="text-align:center;" >The Japanese military is
-responsible for using biological
-warfare, enslaving women into sex work, experimenting<br>on live
-prisoners of war, and the Nanking
-massacre that killed hundreds of
-thousands of unarmed Chinese
-soldiers. <br>In 1945, atomic bombs
-were dropped on Nagasaki and
-Hiroshima by the United States
-with support from Canada and<br>
-Britain.</p>
-
-   <div class="container">
-   <div class="img7">
-<figure>
-  <img src="https://static01.nyt.com/images/2015/08/06/world/Hiroshima-1/Hiroshima-1-jumbo.jpg?quality=75&auto=webp" class="img7">
-  <figcaption>Allied correspondent stood in the rubble in front of the shell of a building that was once an <br>exhibition center and government office in Hiroshima, Japan.</figcaption>
-  </figure>
-      </div>
-      <div class="text">
-        <h1>Insert Text</h1> <p class="p6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br>do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt.<br>
-Lorem</p>
-      </div>
-    </div>
-  
+.header-right {
+  float: right;
  
-  <h1 class="film">Art imitates life</h1>
-  <div class="movies"> 
-  <video width="320" height="240" controls>
-  <source src="come_and_see.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+}
+.pages {
+  font-family: calibri;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+hr .solid {
+ border-top: 5px solid black;
+}
+
+.p2{
+  padding-top: 15px;
+  text-align: center;
+}
+
+.p3 {
+  text-align: left;
+  padding-bottom: 15px;
+  padding-left: 120px;
+}
+
+
+.img1 {
+  padding-top: 15px;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img7 {
+
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+figure {
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  font-size:13px;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.film{
+padding-left: 120px;
+text-align: center;
+}
+
+.movies{
+padding-left: 120px;
+text-align: center;
+}
+.figcaption1 {
+  padding-bottom: 100px;
+}
+
+.img6 {
+  padding-top: 15px;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.p4 {
+  padding-top: 15px;
+  text-align: left;
+  padding-bottom: 60px;
+  padding-right: 500px;
+  padding-left: 120px;
+}
+
+.p5 {
+  text-align: left;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.caption {
+  text-align: center;
+  color: white;
+}
+
+.img2 {
+  width: auto;
+  height: 250px;
+}
+
+.img3 {
+  width: auto;
+  height: 250px;
+}
+
+.img4 {
+  width: auto;
+  height: 250px;
+}
+
+
+.footer {
+  position: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #77552f;
+  color: white;
+  font-family: calibri;
+  font-size: 17px;
+  text-align: center; 
+}
+
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+img {
+max-width: 100%
+    }
+
+.video {
+  flex-basis: 70%;
+  order: 2;
+  padding-top: 60px;
+  padding-left: 120px;
+  padding-bottom: 60px;
+      }
+
+.text {
+  color: white;
+  font-size: 15px;
+  font-family: calibri;
+      }
+
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center
+      }
+
+img {
+max-width: 100%
+    }
+
+.img7 {
+width: 500px;
+height: auto;
+padding-top: 60px;
+padding-bottom: 30px;
+      }
+
+.text {
+  color: white;
+  font-size: 15px;
+  font-family: calibri;
+      }
+
+.heading_two {
+  text-align: left;
+  padding-left: 120px;
+}
+
+
+.card {
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #9c6439;
   
-  <video width="320" height="240" controls>
-  <source src="the_pianist.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+}
 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   
-  <video width="320" height="240" controls>
-  <source src="shindlers_list.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+}
+
+.container {
+  padding: 2px 16px;
   
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-    ut aliquip ex ea commodo consequat. Duis aute irure<br> dolor in reprehenderit in voluptate velit esse cillum 
-    dolore eu fugiat nulla pariatur. 
-  </p>
- 
+}
 
 
+.column2 {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
 
-
-
-
-
-      
-
-<div class="container">
-      <div class="img7">
-<figure>
-    <img src="https://www.history.com/.image/t_share/MTU3ODc4NTk4NDE1Njg5MDMz/image-placeholder-title.jpg" class="img6">
-    <figcaption>A Nationalist officer guarding women prisoners said to be “comfort girls”<br> used by the Communists, 1948.</figcaption>
-  </figure>
-  </div>
-      <div class="text">
-        <h1>Insert Text</h1>
-  <p class="p5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br>do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt.<br>
-Lorem</p>
-      </div>
-    </div>
-
-
-<h2 class="heading_two">Insert Text</h2>
-<p class="p3">The atrocities committed by Japan have left a lasting impact on history and are a very important lesson. <br>They affected millions of people from the Asian countries they invaded, to the western POWs kept in captivity.<br> In my humble opinion the way the Japanese government glosses over its actions is an indicator<br> that it doesn't seem to fully accept the consequences of its actions.</p>
-
-
-<p class="p4">All things considered I believe that civilians pay for the mistakes of their leaders and those<br> mistakes could cost them their lives. What we should all take away from this however is <br>that ultimatley it is impossible to tell what humanity is capable of when forced to play with<br> cards at hand.</p>
-
-
-
-
-
-
-
-
-
-<hr class="solid">
-
-<p class='p5'>Make sure to check these articles out!</p>
-<div class="row">
-  <div class="column">
-    <p class='caption'><img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/16145910/image/cebf9ec95c35d93c795eba4791324eb8" alt="Introduction of Income Tax" style="width:100%" class="img2">Start of Canadian<br> Income Tax</p>
-  </div>
-
-  <div class="column">
-   <p class='caption'><img src="https://i.cbc.ca/1.5353316.1573243211!/fileImage/httpImage/tse-nov-10-2019-women-and-war-header." alt="Women on the home front" style="width:100%" class="img3">Women on the Home Front</p>
-  </div>
-
-  <div class="column">
-    <p class='caption'><img src="https://i.cbc.ca/1.4061034.1491745774!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/vimy-at-100-canadian-soldiers-cheer.jpg" alt="Battle of Vimy Ridge" style="width:100%" class="img4" >Battle of Vimy Ridge</p>
-  </div>
-</div>
-
-<hr class="solid">
-
-<div class="footer">
-  <div>
-  <p>History | © 2022<br>About us<br>Privacy<br>Contact us</p>
-  </div>
-</div>
-
-
-  </body>
-</html>
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
